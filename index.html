@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Регистрация студента</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    </head>
+    <body>
+        <div class="telo">
+            <h1 class="h1_">Регистрация студента</h1>
+        <form name="form-student" method="post" action="#" autocomplete="on">
+            <div class="form-student">
+                <div class="on-surmane">Фамилия*</div>
+                <div>
+                    <input class="surname" placeholder="Иванов" tabindex="1" type="text" name="surmane">
+                </div>
+
+                <div class="on-name">Имя*</div>
+                <div>
+                    <input class="name" placeholder="Иван" tabindex="2" type="text" name="name">
+                </div>
+
+                <div class="on-patronymic">Отчество</div>
+                <div>
+                    <input class="patronymic" placeholder="Иванович" tabindex="3" type="text" name="patronymic">
+                </div>
+
+                <div class="on-date">Дата рождения</div>
+                <div>
+                    <input class="date" tabindex="4" type="date" name="date">
+                </div>
+
+                <div class="on-year-admission">Год поступления</div>
+                <div>
+                    <input class="year-admission" tabindex="5" type="number" min="2000" max="2023" value="2000" name="year-admission">
+                </div>
+
+                <div class="on-email">Email*</div>
+                <div>
+                    <input class="email" tabindex="6" placeholder="Ivanov@mail.ru" type="email" name="email">
+                </div>
+
+                <div class="on-phone">Телефон*</div>
+                <div>
+                    <input class="phone" tabindex="7" type="tel" name="phone" value="+7">
+                </div>
+
+                <div class="on-dop-info">Дополнительная информация</div>
+
+                <div class="on-hobby">Увлечение</div>
+                <div>
+                    <p><input class="basket" type="checkbox" name="hobby1" value="basket">Баскетбол</p>
+
+                    <p><input class="footbal" type="checkbox" name="hobby2" value="footbal">Футбол</p>
+
+                    <p><input class="programm" type="checkbox" name="hobby3" value="programm">Программирование</p>
+                </div>
+
+                 <div class="on-subscription">Подписка на новости*</div>
+                 <div>
+                    <input checked id="radio_1" name="guruweba_example_radio" type="radio" value="1" />
+                    <label for="radio_1">Хочу</label><br />
+                    <input id="radio_2" name="guruweba_example_radio" type="radio" value="2" />
+                    <label for="radio_2">Редко</label><br />
+                    <input id="radio_3" name="guruweba_example_radio" type="radio" value="3" />
+                    <label for="radio_3">Не хочу</label>
+                </div>
+
+                <div class="on-facultet">Факультатив</div>
+                <select class="facultet" name="user_profile_color_1">
+                  <option value="1">Институт металлургии, машиностроения и материалообработки</option>
+                  <option value="2">Институт горного дела и транспорта</option>
+                  <option value="3">Институт энергетики и автоматизированных систем</option>
+                  <option value="4">Институт строительства, архитектуры и искусства</option>
+                  <option value="5">Институт экономики и управления</option>
+                  <option value="6">Институт гуманитарного образования</option>
+                </select>
+
+                <div class="form-end">
+                    <div class="on-form-end">Анкета</div>
+                    <div>
+                        <input class="form-reset"type="reset" name="form-reset">
+                    </div>
+                    <div>
+                        <input class="form-submit"type="submit" name="form-reset">
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
